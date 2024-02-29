@@ -87,9 +87,20 @@ body{
 
 @media (max-width: 650px){
 
+    .numbers{
+        flex: 6; 
+    }
+    
+    .operators{
+        flex: 4; 
+    }
     .numbers span, .operators span{
-        width:70px;
+        width:60px;
         height: 50px;
+    }
+
+    .calculator{
+        max-width: 500px;
     }
 
 }
